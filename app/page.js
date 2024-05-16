@@ -1,13 +1,20 @@
 import React from 'react'
 import Header from './Header';
 import Footer from './Footer';
-
+import ProductPage from './ProductPage';
+import Discription from './Discription';
+import Para from './Para';
+import Products from './Products';
 const page = () => {
   return (
     <>
     <Header/>
-    <div className='bg-gray-300 w-full h-[200px]'></div>
+    <ProductPage/>
+    <Discription/>
+    <Para/>
+    <Products/>
     <Footer/>
+    
     </>
   )
 }

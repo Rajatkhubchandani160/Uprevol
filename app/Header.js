@@ -3,7 +3,7 @@ import { GoChevronDown } from "react-icons/go";
 const Header = () => {
   return (
     <>
-    <div className='nav-container flex items-center  justify-between bg-zinc-800 w-full h-30'>
+    <div className='nav-container flex items-center  justify-between bg-zinc-800 w-full  mb-7 h-30'>
       <div className='nav-left'>
         <img  src='https://monolithsafetyexperts.com/wp-content/uploads/2021/05/0012.png'></img>
       </div>
